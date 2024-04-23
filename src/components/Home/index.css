@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sub-containet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 50vh;
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  padding: 30px;
+  border-radius: 20px;
+  font-family: Roboto;
+}
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+}
+.btn{
+  background-color:  #f8fafc;
+  color: #303150;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
